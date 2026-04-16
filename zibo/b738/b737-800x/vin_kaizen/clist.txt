@@ -2,10 +2,10 @@
 sw_define_colour:white:0.9,0.9,0.9
 sw_define_colour:grey:0.6,0.6,0.6
 ################################################################################################################
-sw_checklist: VERSION 9.0 BY VIN_KAIZEN FROM 13TH JUNE 2020
+sw_checklist: VERSION 9.2 BY VIN_KAIZEN FROM 21TH NOVEMBER 2020
 ################################################################################################################
 sw_itemvoid_c:\white\                   REAL 737 FULL FLIGHT PROCEDURES CHECKLIST
-sw_itemvoid_c:\grey\                        FOR ZIBO V3.42.9 & XCHECKLIST 1.40
+sw_itemvoid_c:\grey\                        FOR ZIBO V3.44.10 & XCHECKLIST 1.41
 sw_itemvoid_c:\grey\                   SPECIAL THANKS TO BADMANNEN (RL737 PILOT)
 sw_itemvoid_c:\grey\            INSTALLATION & TUTORIAL: HTTP://BIT.LY/737xCHECKLIST
 sw_itemvoid:
@@ -104,17 +104,17 @@ sw_itemvoid:
 sw_itemvoid:::::::::::::::: NOSE :::::::::::::::::::::::::::::::::::::::::::::::::::::::
 sw_item_c:\white\RADOME SURFACE & STRUCTURES\grey\, UNDAMAGED|CHECKED
 sw_item_c:\white\LIGHTNING DIVERTER STRIPS\grey\, SECURE|CHECKED
-sw_itemvoid_c:\white\FORWARD E & E DOOR\grey\,SECURE (NOT MODELED)
+sw_itemvoid_c:\white\FORWARD E & E DOOR\grey\,SECURE (NOT MODELLED)
 
 sw_itemvoid:
 sw_itemvoid:::::::::::::::: NOSE WHEEL WELL ::::::::::::::::::::::::::::::::::::
 sw_item_c:\white\CHOCKS, IN PLACE (VISUAL CHECK)|AS NEEDED
 sw_item_c:\white\TIRES AND WHEELS\grey\, IN GOOD CONDITION|CHECKED
 sw_item_c:\white\GEAR STRUT & DOORS\grey\, UNDAMAGED|CHECKED
-sw_itemvoid_c:\white\NOSE WHEEL WELL LIGHT\grey\, WORKING (NOT MODELED)
+sw_itemvoid_c:\white\NOSE WHEEL WELL LIGHT\grey\, WORKING (NOT MODELLED)
 sw_item_c:\white\STEERING ASSEMBLY\grey\, UNLEAKY OR MISSING PARTS|CHECKED
-sw_itemvoid_c:\white\STEERING LOCKOUT PIN\grey\, REMOVED (NOT MODELED)
-sw_itemvoid_c:\white\SPIN BRAKE (SNUBBERS)\grey\, IN PLACE (NOT MODELED)
+sw_itemvoid_c:\white\STEERING LOCKOUT PIN\grey\, REMOVED (NOT MODELLED)
+sw_itemvoid_c:\white\SPIN BRAKE (SNUBBERS)\grey\, IN PLACE (NOT MODELLED)
 sw_itemvoid_c:\grey\STOPS WHEEL SPINNING AFTER TAKEOFF
 
 sw_itemvoid:
@@ -133,8 +133,8 @@ sw_continue
 ################################################################################################################
 sw_checklist:EXTERIOR INSPECTION PROCEDURE (2/5):EXTERIOR INSPECTION PROCEDURE (2/5)
 ################################################################################################################
-sw_itemvoid:::::::::::::::: RIGHT WING ROOT / LOWER FUSELAGE :::::::::::::::::
-sw_itemvoid_c:\white\OXY. PRESSURE RELIEF\grey\, GREEN DISC IN PLACE (NOT MODELED)
+sw_itemvoid:::::::::::::::: RIGHT WING ROOT / LOWER FUSELAGE :::::::::::::::::::
+sw_itemvoid_c:\white\OXY. PRESSURE RELIEF\grey\, GREEN DISC IN PLACE (NOT MODELLED)
 sw_item_c:\white\ALTERNATE STATIC PORT\grey\, NOT BLOCKED|CHECKED
 sw_item_c:\white\RAM AIR INLET DEFLECTOR DOOR\grey\, EXTENDED & OPEN|CHECKED
 sw_item_c:\white\PACK & PNEUMATIC ACCESS DOORS\grey\, LATCHED & SECURE|CHECKED
@@ -143,7 +143,7 @@ sw_item_c:\white\EXTERIOR LIGHTS & LENSES\grey\, CLEAN & UNDAMAGED|CHECKED
 sw_item_c:\white\LEADING EDGE FLAPS\grey\, UNDAMAGED|CHECKED
 
 sw_itemvoid:
-sw_itemvoid:::::::::::::::: NUMBER 2 ENGINE ::::::::::::::::::::::::::::::::::::::::::::::
+sw_itemvoid:::::::::::::::: NUMBER 2 ENGINE ::::::::::::::::::::::::::::::::::::::::::::::::
 sw_item_c:\white\COWLING FAN CURVE VORTEX DEVICE\grey\, UNDAMAGED|CHECKED
 sw_item_c:\white\FAN BLADES & SPINNER\grey\, CLEAR & UNDAMAGED|CHECKED
 sw_item_c:\white\T12 (TAT) SENSOR (10 O´CLOCK)\grey\, CLEAR & UNDAMAGED|CHECKED
@@ -154,7 +154,7 @@ sw_item_c:\white\EXHAUST AREA & TURBINE BLADES\grey\, CLEAR & UNDAMAGED|CHECKED
 sw_item_c:\white\TAIL CONE\grey\, CLEAR & UNDAMAGED|CHECKED
 
 sw_itemvoid:
-sw_itemvoid:::::::::::::::: RIGHT WING & LEADING EDGE :::::::::::::::::::::::::::::
+sw_itemvoid:::::::::::::::: RIGHT WING & LEADING EDGE :::::::::::::::::::::::::::::::
 sw_item_c:\white\ACCESS PANELS\grey\, LATCHED|CHECKED
 sw_item_c:\white\FUEL MEASURING STICKS\grey\, FLUSH & NO VISIBLE LEAKS|CHECKED
 sw_itemvoid_c:\grey\(6 AT EACH WING SIDE & 4 IN CENTER TANK)
@@ -169,33 +169,33 @@ sw_continue
 ################################################################################################################
 sw_checklist:EXTERIOR INSPECTION PROCEDURE (3/5):EXTERIOR INSPECTION PROCEDURE (3/5)
 ################################################################################################################
-sw_itemvoid:::::::::::::::: RIGHT WING TIP & TRAILING EDGE ::::::::::::::::
+sw_itemvoid:::::::::::::::: RIGHT WING TIP & TRAILING EDGE :::::::::::::::::
 sw_item_c:\white\STROBE & POSITION LIGHTS\grey\, CLEAN & UNDAMAGED|CHECKED
 sw_item_c:\white\STATIC DISCHARGE WICKS\grey\, IN PLACE|CHECKED
 sw_item_c:\white\AILERON & TRAILING EDGE FLAPS\grey\, CLEAR & UNDAMAGED|CHECKED
 sw_item_c:\white\FLAP FAIRINGS\grey\, (3 PER WING) CLEAR & UNDAMAGED|CHECKED
 
 sw_itemvoid:
-sw_itemvoid:::::::::::::::: RIGHT MAIN GEAR :::::::::::::::::::::::::::::::::::::::
+sw_itemvoid:::::::::::::::: RIGHT MAIN GEAR ::::::::::::::::::::::::::::::::::::::::
 sw_item_c:\white\CHOCKS, IN PLACE (VISUAL CHECK)|AS NEEDED
 sw_item_c:\white\TIRES, BRAKES & WHEELS\grey\, IN GOOD CONDITION|CHECKED
 sw_item_c:\white\GEAR STRUT & DOORS\grey\, UNDAMAGED|CHECKED
-sw_itemvoid_c:\white\HYDRAULIC LINES\grey\, SECURE (NOT MODELED)
-sw_itemvoid_c:\white\GEAR PIN\grey\, REMOVED (NOT MODELED)
+sw_itemvoid_c:\white\HYDRAULIC LINES\grey\, SECURE (NOT MODELLED)
+sw_itemvoid_c:\white\GEAR PIN\grey\, REMOVED (NOT MODELLED)
 
 sw_itemvoid:
-sw_itemvoid:::::::::::::::: RIGHT MAIN WHEEL WELL ::::::::::::::::::::::::::::
+sw_itemvoid:::::::::::::::: RIGHT MAIN WHEEL WELL :::::::::::::::::::::::::::::
 sw_item_c:\white\HYDRAULIC UNITS & LINES\grey\, SECURE & UNLEAKY|CHECKED
 sw_item_c:\white\CONTROL CABLES\grey\, SECURE & UNDAMAGED|CHECKED
-sw_itemvoid_c:\white\APU FIRE CONTROL HANDLE\grey\, UP (NOT MODELED)
+sw_itemvoid_c:\white\APU FIRE CONTROL HANDLE\grey\, UP (NOT MODELLED)
 
 sw_itemvoid:
-sw_itemvoid:::::::::::::::: RIGHT AFT FUSELAGE ::::::::::::::::::::::::::::::::::
+sw_itemvoid:::::::::::::::: RIGHT AFT FUSELAGE :::::::::::::::::::::::::::::::::::
 sw_item_c:\white\DOORS & ACCESS PANELS (NOT USED)\grey\, LATCHED|CHECKED
 sw_item_c:\white\NEGATIVE PRESSURE RELIEF DOOR\grey\, CLOSED|CHECKED
 sw_item_c:\white\OUTFLOW VALVE\grey\, FULL OPEN|CHECKED
 sw_item_c:\white\PROBES / SENSORS\grey\, CLEAR & UNDAMAGED|CHECKED
-sw_itemvoid_c:\white\APU FIRE BOTTLE DISC. INDIC.\grey\, RED & Y. (NOT MODELED)
+sw_itemvoid_c:\white\APU FIRE BOTTLE DISC. INDIC.\grey\, RED & Y. (NOT MODELLED)
 sw_item_c:\white\STATIC PORTS / VENTS / DRAINS\grey\, CLEAR & UNDAMAGED|CHECKED
 ################################################################################################################
 sw_continue
@@ -226,13 +226,13 @@ sw_itemvoid:::::::::::::::: LEFT MAIN GEAR :::::::::::::::::::::::::::::::::::::
 sw_item_c:\white\CHOCKS, IN PLACE (VISUAL CHECK)|AS NEEDED
 sw_item_c:\white\TIRES, BRAKES & WHEELS\grey\, IN GOOD CONDITION|CHECKED
 sw_item_c:\white\GEAR STRUT & DOORS\grey\, UNDAMAGED|CHECKED
-sw_itemvoid_c:\white\HYDRAULIC LINES\grey\, SECURE (NOT MODELED)
-sw_itemvoid_c:\white\GEAR PIN\grey\, REMOVED (NOT MODELED)
+sw_itemvoid_c:\white\HYDRAULIC LINES\grey\, SECURE (NOT MODELLED)
+sw_itemvoid_c:\white\GEAR PIN\grey\, REMOVED (NOT MODELLED)
 
 sw_itemvoid:
 sw_itemvoid:::::::::::::::: LEFT MAIN WHEEL WELL ::::::::::::::::::::::::::::::::::::::::::
-sw_itemvoid_c:\white\FIRE DETECTION ELEMENTS\grey\, UNDAMAGED (NOT MODELED)
-sw_itemvoid_c:\white\ENGINE FIRE BOTTLE PRESSURE\grey\, ENOUGH (NOT MODELED)
+sw_itemvoid_c:\white\FIRE DETECTION ELEMENTS\grey\, UNDAMAGED (NOT MODELLED)
+sw_itemvoid_c:\white\ENGINE FIRE BOTTLE PRESSURE\grey\, ENOUGH (NOT MODELLED)
 sw_item_c:\white\HYDRAULIC UNITS & LINES\grey\, SECURE & UNLEAKY|CHECKED
 sw_item_c:\white\CONTROL CABLES\grey\, SECURE & UNDAMAGED|CHECKED
 ################################################################################################################
@@ -307,7 +307,7 @@ sw_item_c:\white\GENERATORS DRIVE DISCONNECT\grey\, GUARDS CLOSED|CHECKED:(lamin
 
 sw_itemvoid:
 sw_itemvoid:::::::::::::::: OVHD, MIDDLE PANEL ::::::::::::::::::::::::::::::::::
-sw_item_c:\white\PANEL LIGHTNING\grey\, BRIGHT|AS NEEDED:(sim/cockpit2/switches/panel_brightness_ratio[2]:><0)||(sim/cockpit2/switches/panel_brightness_ratio[2]:1)||(laminar/B738/toggle_switch/emer_exit_lights:1)&&(laminar/B738/button_switch/cover_position[9]:0)
+sw_item_c:\white\PANEL LIGHTING\grey\, BRIGHT|AS NEEDED:(sim/cockpit2/switches/panel_brightness_ratio[2]:><0)||(sim/cockpit2/switches/panel_brightness_ratio[2]:1)||(laminar/B738/toggle_switch/emer_exit_lights:1)&&(laminar/B738/button_switch/cover_position[9]:0)
 sw_item_c:\white\EMERGENCY EXIT LIGHTS\grey\, GUARD CLOSED|SET:(laminar/B738/toggle_switch/emer_exit_lights:1)&&(laminar/B738/button_switch/cover_position[9]:0)
 sw_item_c:\white\CABIN ATTEND BUTTON TEST\grey\, PUSH|CHECKED:laminar/B738/push_button/attend_pos:1
 sw_item_c:\white\GROUND CALL BUTTON TEST\grey\, PUSH|CHECKED:laminar/B738/push_button/grd_call_pos:1
@@ -330,21 +330,21 @@ sw_continue
 ################################################################################################################
 sw_checklist:PRELIMINARY FLIGHTDECK PROCEDURE (3/3):PRELIMINARY FLIGHTDECK PROCEDURE (3/3)
 ################################################################################################################
-sw_itemvoid::::::::::::::: FIRE & RUDDER CONTROL PANEL :::::::::::
+sw_itemvoid::::::::::::::: FIRE & RUDDER CONTROL PANEL :::::::::::::::
 sw_item_c:\white\CARGO FIRE\grey\, TEST (FIRE LIGHTS ILLUMINATED)|CHECKED:(laminar/B738/push_botton/cargo_fire_test:>0)&&(laminar/B738/annunciator/cargo_fire:>0)&&(laminar/B738/annunciator/fire_bell_annun:1)
 sw_item_c:\white\PANEL & FLOOD LIGHTNING\grey\, BRIGHT|AS NEEDED:(sim/cockpit2/switches/panel_brightness_ratio[3]:><0)&&(sim/cockpit2/switches/generic_lights_switch[8]:><0)||(sim/cockpit2/switches/generic_lights_switch[8]:><0)&&(sim/cockpit2/switches/panel_brightness_ratio[3]:><0)||(sim/cockpit2/switches/panel_brightness_ratio[3]:1)&&(sim/cockpit2/switches/generic_lights_switch[8]:1)
 sw_item_c:\white\RUDDER TRIM\grey\, 0 (CENTERED)|CHECKED:sim/cockpit2/controls/rudder_trim:-0.005|0.005
 sw_item_c:\white\AILERON TRIM\grey\, 0 (CENTERED)|CHECKED:sim/cockpit2/controls/aileron_trim:-0.005|0.005
 
 sw_itemvoid:
-sw_itemvoid::::::::::::::: COCKPIT ::::::::::::::::::::::::::::::::::::::::::::::
+sw_itemvoid::::::::::::::: COCKPIT ::::::::::::::::::::::::::::::::::::::::::::::::::
 sw_item_c:\white\MANUAL GEAR EXTENSION ACCESS DOOR\grey\, CLOSED|CHECKED:laminar/B738/emergency/landgear_cover_pos:0
 sw_item_c:\white\HALON FIRE EXTINGUISHER\grey\, INSTALLED  & FILLED|CHECKED
 sw_item_c:\white\P6 CIRCUIT BREAKERS PANEL\grey\, NO POPPED (FIRST OFF.)|CHECKED
 sw_item_c:\white\EMERGENCY ESCAPE ROPE\grey\, IN PLACE (FIRST OFFICER)|CHECKED
 
 sw_itemvoid:
-sw_itemvoid::::::::::::::: OVHD, UPPER PANEL :::::::::::::::::::::::::::::
+sw_itemvoid::::::::::::::: OVHD, UPPER PANEL :::::::::::::::::::::::::::::::::
 sw_item_c:\white\FLIGHT RECORDER\grey\, TEST (OFF EXTINGUISHED)|CHECKED:laminar/B738/annunciator/fdr_off:1:0
 sw_item_c:\white\FLIGHT RECORDER\grey\, GUARD CLOSED|SET:(laminar/B738/switches/fdr_cover_pos:0)&&(laminar/B738/switches/fdr_pos:0)
 sw_item_c:\white\MACH AIRSPEED WARNING\grey\, TEST 1|CHECKED:laminar/B738/push_button/mach_warn1_pos:1
@@ -360,10 +360,10 @@ sw_item_c:\white\LEFT & RIGHT IRS MODE SELECTOR\grey\, NAV|SET:(laminar/B738/tog
 sw_item_c:\white\IRS DISPLAY SELECTOR\grey\, HDG & STS|AS NEEDED:laminar/B738/toggle_switch/irs_dspl_sel:4
 sw_item_c:\white\ELT\grey\, GUARD CLOSED|CHECKED:(laminar/B738/toggle_switch/elt:0)&&(laminar/B738/annunciator/elt:0)&&(laminar/B738/button_switch/cover_position[8]:0)
 sw_itemvoid:
-sw_itemvoid::::::::::::::: COCKPIT ::::::::::::::::::::::::::::::::::::::::::::::
+sw_itemvoid::::::::::::::: COCKPIT ::::::::::::::::::::::::::::::::::::::::::::::::::
 sw_item_c:\white\EMERGENCY ESCAPE ROPE\grey\, IN PLACE (CAPTAIN)|CHECKED
 sw_item_c:\white\P18 CIRCUIT BREAKERS PANEL\grey\, NO POPPED (CAPT.)|CHECKED
-sw_itemvoid_c:\white\CRASH AXE\grey\, STOWED (NOT MODELED)
+sw_itemvoid_c:\white\CRASH AXE\grey\, STOWED (NOT MODELLED)
 sw_itemvoid_c:\white\AIRCRAFT EXTERIOR INSPECTION\grey\, FINISHED
 ################################################################################################################
 sw_continue
@@ -410,20 +410,20 @@ sw_continue
 ################################################################################################################
 sw_checklist:PREFLIGHT PREPARATION PROCEDURES (2/7):PREFLIGHT PREPARATION PROCEDURES (2/7)
 ################################################################################################################
-sw_itemvoid::::::::::::::: CONSOLE (FIRST OFFICER) ::::::::::::::::::::::::::
+sw_itemvoid::::::::::::::: CONSOLE (FIRST OFFICER) ::::::::::::::::::::::::::::
 sw_item_c:\white\FIRST OFFICER OXYGEN MASK\grey\, NORMAL TEST|CHECKED:(laminar/B738/push_button/oxy_test_fo_pos:1)||(laminar/B738/push_button/oxy_test_fo2_pos:1)
 sw_item_c:\white\FIRST OFFICER OXYGEN MASK\grey\, EMERGENCY TEST (HOLD)|CHECKED:(laminar/B738/push_button/oxy_test_fo_pos:0:1)||(laminar/B738/push_button/oxy_test_fo2_pos:0:1)
-sw_item_c:\white\PANEL LIGHTNING\grey\, SET|AS NEEDED:(sim/cockpit2/switches/panel_brightness_ratio[1]:><0)||(sim/cockpit2/switches/panel_brightness_ratio[1]:1)||(laminar/B738/annunciator/gpws:1)
+sw_item_c:\white\PANEL LIGHTING\grey\, SET|AS NEEDED:(sim/cockpit2/switches/panel_brightness_ratio[1]:><0)||(sim/cockpit2/switches/panel_brightness_ratio[1]:1)||(laminar/B738/annunciator/gpws:1)
 sw_item_c:\white\FLAP INHIBIT\grey\, GUARD CLOSED|CHECKED:(laminar/B738/toggle_switch/gpws_flap_pos:0)&&(laminar/B738/toggle_switch/gpws_flap_cover_pos:0)
 sw_item_c:\white\GEAR INHIBIT\grey\, GUARD CLOSED|CHECKED:(laminar/B738/toggle_switch/gpws_gear_pos:0)&&(laminar/B738/toggle_switch/gpws_gear_cover_pos:0)
 sw_item_c:\white\TERRAIN INHIBIT\grey\, GUARD CLOSED|CHECKED:(laminar/B738/toggle_switch/gpws_terr_pos:0)&&(laminar/B738/toggle_switch/gpws_terr_cover_pos:0)
-sw_item_c:\white\GWPS GROUND SYS\grey\, TEST|SET:laminar/B738/annunciator/gpws:1
+sw_item_c:\white\GPWS GROUND SYS\grey\, TEST|SET:laminar/B738/annunciator/gpws:1
 sw_item_c:\white\CLOCK\grey\, UTC TIME|SET:(laminar/B738/clock/clock_display_mode_fo:1)||(laminar/B738/clock/clock_display_mode_fo:2)
 sw_item_c:\white\MAIN PANEL DU\grey\, NORM|CHECKED:laminar/B738/toggle_switch/main_pnl_du_fo:0
 sw_item_c:\white\LOWER DU\grey\, NORM|CHECKED:laminar/B738/toggle_switch/lower_du_fo:0
 
 sw_itemvoid:
-sw_itemvoid::::::::::::::: EFIS PANEL (FIRST OFFICER) :::::::::::::::::::::::
+sw_itemvoid::::::::::::::: EFIS PANEL (FIRST OFFICER) :::::::::::::::::::::::::
 sw_item_c:\white\TERRAIN RADAR\grey\, ON (FIRST OFFICER, TFC DIST. <40)|SET:(laminar/B738/EFIS_control/fo/push_button/terr:1)||(laminar/B738/EFIS_control/fo/terr_on:1)
 sw_item_c:\white\WEATHER RADAR\grey\, OFF|CHECKED:sim/cockpit/switches/EFIS_shows_weather:0
 sw_item_c:\white\BAROMETRIC REFERENCE SELECTOR\grey\, IN/HPA|SET:laminar/B738/EFIS_control/fo/baro_in_hpa:{laminar/B738/EFIS_control/capt/baro_in_hpa}
@@ -432,7 +432,7 @@ sw_item_c:\white\MINIMUMS REFERENCE SELECTOR\grey\, BARO|SET:laminar/B738/EFIS_c
 sw_item_c:\white\MINIMUMS\grey\, AIRPORT ELEVATION + 1000 FT|SET:laminar/B738/pfd/dh_copilot:>={laminar/B738/autopilot/altitude}+1000
 
 sw_itemvoid:
-sw_itemvoid::::::::::::::: EFB, GROUND SERVICE & MAIN MENU :::::::::
+sw_itemvoid::::::::::::::: EFB, GROUND SERVICE & MAIN MENU :::::::::::
 sw_item_c:\white\SERVICE CREWS ON GROUND\grey\, STOP|SET:laminar/b738/fmodpack/fmod_play_cargo:0
 sw_item_c:\white\FWD & AFT SERVICE DOORS\grey\, CLOSED|SET:(laminar/B738/annunciator/fwd_service:0)&&(laminar/B738/annunciator/aft_service:0)
 sw_item_c:\white\FWD ENTRY DOOR\grey\, OPEN|SET:laminar/B738/annunciator/fwd_entry:1
@@ -451,7 +451,7 @@ sw_checklist:PREFLIGHT PREPARATION PROCEDURES (3/7):PREFLIGHT PREPARATION PROCED
 sw_itemvoid::::::::::::::: FMC, IDENT & POS INIT 1/3 ::::::::::::
 sw_item_c:\white\AIRCRAFT MODEL\grey\, CORRECT|CHECKED
 sw_item_c:\white\ENGINE RATING\grey\, CORRECT|CHECKED
-sw_item_c:\white\NAV DATA BASE\grey\, ACTUAL|CHECKED
+sw_item_c:\white\NAV DATA BASE\grey\, CORRECT|CHECKED
 sw_item_c:\white\IRS POSITION\grey\, GPS L DATA (NEXT PAGE)|SET
 sw_item_c:\white\REF AIRPORT\grey\, ORIGIN ICAO|SET
 
@@ -646,7 +646,7 @@ sw_item_c:\white\INITIAL COM-FREQUENCIES\grey\, ACCORDING CHARTS|TUNED:(sim/cock
 sw_item_c:\white\NAV-FREQUENCIES\grey\, ACTIVE & PASSIVE (RAWDATA)|TUNED:(sim/cockpit2/radios/actuators/nav1_right_is_selected:><0)||(sim/cockpit2/radios/actuators/nav2_right_is_selected:><0)||(laminar/B738/mmr/cpt/act_value:><0)||(laminar/B738/mmr/fo/act_value:><0)
 sw_item_c:\white\ADF-FREQUENCIES\grey\, ACTIVE & PASSIVE (RAWDATA)|AS NEEDED:(laminar/B738/push_button/switch_freq_adf1:><0)||(laminar/B738/push_button/switch_freq_adf2:><0)||(laminar/B738/audio/fo/mic_indicator1:1)
 sw_item_c:\white\INITIAL TRANSPONDER CODE\grey\, 2000|SET:(laminar/B738/knob/transponder_pos:1)&&(sim/cockpit/radios/transponder_code:2000)
-sw_itemvoid_c:\white\TRANSPONDER SWITCHES\grey\, BOOTH 1 (NOT MODELED)
+sw_itemvoid_c:\white\TRANSPONDER SWITCHES\grey\, BOTH 1 (NOT MODELLED)
 sw_item_c:\white\MIC SELECTORS\grey\, 1-VHF (CAPT.) & 2-VHF (FIRST OFF.)|SET:(laminar/B738/audio/capt/mic_indicator1:1)&&(laminar/B738/audio/fo/mic_indicator2:1)
 
 
@@ -1170,14 +1170,14 @@ sw_itemvoid_c:\grey\XX (T/D-RING): ~(CRUISE FL/10*3)+10NM
 
 sw_itemvoid:
 sw_itemvoid::::::::::::::: EFIS & RADIO & MCP PANEL :::::::::::::::::::::::
-sw_item_c:\white\DECISION ALTITUTE HEIGHT\grey\, ACCORDING CHART|SET:laminar/B738/pfd/dh_pilot:>=200
+sw_item_c:\white\DECISION ALTITUDE HEIGHT\grey\, ACCORDING CHART|SET:laminar/B738/pfd/dh_pilot:>=200
 sw_item_c:\white\NAV-FREQUENCIES\grey\, ACTIVE (CAPTAIN & FIRST OFFICER)|SET:(sim/cockpit2/radios/actuators/nav1_right_is_selected:><0)||(sim/cockpit2/radios/actuators/nav1_right_is_selected:><0)&&(sim/cockpit2/radios/actuators/nav2_right_is_selected:><0)||(sim/cockpit2/radios/actuators/nav2_right_is_selected:><0)&&(sim/cockpit2/radios/actuators/nav1_right_is_selected:><0)||(laminar/B738/autopilot/course_pilot:><0)||(laminar/B738/autopilot/course_copilot:><0)||(laminar/B738/mmr/cpt/act_value:><0)||(laminar/B738/mmr/fo/act_value:><0)&&(laminar/B738/mmr/cpt/act_value:><0)
 sw_item_c:\white\COURSES\grey\, ACCORDING APPROACH CHART|SET:(laminar/B738/autopilot/course_pilot:{laminar/B738/fms/dest_runway_crs}-2|{laminar/B738/fms/dest_runway_crs}+2)&&(laminar/B738/autopilot/course_copilot:{laminar/B738/fms/dest_runway_crs}-2|{laminar/B738/fms/dest_runway_crs}+2)||(laminar/B738/autopilot/course_pilot:{laminar/B738/fms/dest_runway_crs}-2|{laminar/B738/fms/dest_runway_crs}+2)
 sw_item_c:\white\ALTITUDE BUG\grey\, ADJUST TILL IAF CLEARANCE|SET:laminar/B738/autopilot/mcp_alt_dial:><0
 
 sw_itemvoid:
 sw_itemvoid::::::::::::::: LANDING PERFORMANCE CALCULATION ::::::
-sw_itemvoid_c:\grey\USE ACTUAL GW (FMC) + ACTUAL - LANDING FUEL
+sw_itemvoid_c:\grey\USE ACTUAL GW (FMC) - ACTUAL + LANDING FUEL
 sw_item_c:\white\LANDING PERFORMANCE CALCULATION|DONE
 
 sw_itemvoid:
@@ -1563,7 +1563,7 @@ sw_item_c:\white\WING LIGHT\grey\, OFF|SET:sim/cockpit2/switches/generic_lights_
 sw_item_c:\white\POSITION LIGHTS\grey\, OFF|SET:(sim/cockpit2/switches/navigation_lights_on:0)&&(sim/cockpit2/switches/strobe_lights_on:0)
 sw_item_c:\white\LOGO LIGHT\grey\, OFF|SET:sim/cockpit2/switches/generic_lights_switch[1]:0
 sw_item_c:\white\EMERGENCY EXIT LIGHTS\grey\, GUARD OPENED & OFF|SET:laminar/B738/toggle_switch/emer_exit_lights:0
-sw_item_c:\white\COCKPIT PANEL LIGHTNING\grey\, ALL OFF|SET:(sim/cockpit2/switches/panel_brightness_ratio[2]:0)&&(sim/cockpit2/switches/panel_brightness_ratio[3]:0)&&(sim/cockpit2/switches/generic_lights_switch[8]:0)&&(sim/cockpit2/switches/panel_brightness_ratio[0]:0)&&(sim/cockpit2/switches/generic_lights_switch[6]:0)&&(sim/cockpit2/switches/generic_lights_switch[7]:0)&&(sim/cockpit2/switches/panel_brightness_ratio[1]:0)&&(sim/cockpit2/switches/instrument_brightness_ratio[10]:0)&&(sim/cockpit2/switches/instrument_brightness_ratio[11]:0)
+sw_item_c:\white\COCKPIT PANEL LIGHTING\grey\, ALL OFF|SET:(sim/cockpit2/switches/panel_brightness_ratio[2]:0)&&(sim/cockpit2/switches/panel_brightness_ratio[3]:0)&&(sim/cockpit2/switches/generic_lights_switch[8]:0)&&(sim/cockpit2/switches/panel_brightness_ratio[0]:0)&&(sim/cockpit2/switches/generic_lights_switch[6]:0)&&(sim/cockpit2/switches/generic_lights_switch[7]:0)&&(sim/cockpit2/switches/panel_brightness_ratio[1]:0)&&(sim/cockpit2/switches/instrument_brightness_ratio[10]:0)&&(sim/cockpit2/switches/instrument_brightness_ratio[11]:0)
 sw_itemvoid_c:\grey\(OVHD, CPT, FO, CDU`S, PEDESTAL)
 
 sw_itemvoid:
