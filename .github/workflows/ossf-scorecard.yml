@@ -1,10 +1,5 @@
 name: Scorecard supply-chain security
 on:
-  branch_protection_rule:
-  schedule:
-    - cron: '20 7 * * 2' # Weekly scan
-  push:
-    branches: [ "main" ]
   workflow_dispatch: {}
 
 permissions: read-all # Default to read-only

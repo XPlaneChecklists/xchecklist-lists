@@ -1,0 +1,59 @@
+name: "XChecklist Syntax Checker"
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions: {}
+
+jobs:
+  checker:
+    name: Syntax check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout current branch
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          persist-credentials: false
+      - name: Checkout current branch
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+        with:
+          ref: checker_util
+          path: bin
+          persist-credentials: false
+      - name: Add bin to PATH
+        run: echo "`pwd`/bin" >> $GITHUB_PATH
+      - name: Get changed directories
+        id: changed-dirs
+        uses: tj-actions/changed-files@22103cc46bda19c2b464ffe86db46df6922fd323
+        with:
+          dir_names: true
+      - name: Run syntax checker on changed directories
+        env:
+          ALL_CHANGED_DIRS: ${{ steps.changed-dirs.outputs.all_changed_files }}
+        run: |
+          return_status=0
+          for dir in ${ALL_CHANGED_DIRS}; do
+            pushd $dir >/dev/null
+            echo "Processing directory ${dir}"
+            if test ! -f clist_dict_drt_last_run_datarefs.txt; then
+              echo "Missing data ref dictionary (clist_dict_drt_last_run_datarefs.txt)"
+              return_status=1
+            else
+              lin_checker_64 clist.txt 2>&1 | tee -a results_basic_test.txt
+              if grep -s "Encountered 0 errors and 0 warnings" results_basic_test.txt; then
+                echo "No errors found for ${dir}/clist.txt"
+                continue
+              fi
+              return_status=1
+              # lin_checker_64 clist.txt 1 2>&1 | tee -a results_debug_1.txt
+              # lin_checker_64 clist.txt 2 2>&1 | tee -a results_debug_2.txt
+              # lin_checker_64 clist.txt 4 2>&1 | tee -a results_debug_4.txt
+            fi
+            popd >/dev/null
+          done
+          exit $return_status
