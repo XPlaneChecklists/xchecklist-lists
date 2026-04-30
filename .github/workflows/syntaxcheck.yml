@@ -29,7 +29,7 @@ jobs:
         run: echo "`pwd`/bin" >> $GITHUB_PATH
       - name: Get changed directories
         id: changed-dirs
-        uses: tj-actions/changed-files@22103cc46bda19c2b464ffe86db46df6922fd323
+        uses: tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96
         with:
           dir_names: true
       - name: Run syntax checker on changed directories
